@@ -1,0 +1,82 @@
+.invalid {
+	color: #F00;
+	font: 800 11px Tahoma, Arial, Verdana, sans-serif
+}
+
+.newVesionInfo {
+	color: #EF3805;
+	font: 800 12px Tahoma, Arial, Verdana, sans-serif
+}
+
+.newVesionMess {
+	margin: 10px 0
+}
+
+.ninfo {
+	cursor: pointer
+}
+
+.wttooltip {
+	cursor: pointer;
+	display: none;
+}
+
+.error {
+	color: #EF3805;
+	font: 800 12px Tahoma, Arial, Verdana, sans-serif
+}
+
+.myLink, .myLink span {
+	color: #FF0000;
+	text-decoration: none
+}
+
+.sel_target_cat {
+	max-height: 300px;
+	overflow-y: scroll
+}
+
+#running {
+    position: fixed;
+	display: none;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 10000;
+	opacity: 0.8
+}
+#running p{
+	width: 100%;
+	height:100px;
+	margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	top: 40%;
+	background: #fff;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+#running i{
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	top: 30%;	
+}
+
+.task_close{
+    position: absolute;
+    top: 220px;
+    right: 250px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 8040;
+}
+#preview img{
+	max-width: 100%!important;
+}
